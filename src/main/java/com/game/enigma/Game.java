@@ -26,7 +26,6 @@ public class Game {
                     Integer sum = 0;
                     for (int k = 0; k < 4; k++) {
                         sum += board.getValue(i, 5 + k);
-                        System.out.println(sum);
                         if (sum == 400) {
                             i = -1;
                             board = new EnigmaBoard();
